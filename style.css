@@ -1,0 +1,42 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.game-container {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: #222;
+    border: 2px solid #fff;
+    overflow: hidden;
+}
+
+#ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.paddle {
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    background-color: #fff;
+}
+
+#paddle-left {
+    left: 0;
+}
+
+#paddle-right {
+    right: 0;
+}
